@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Task2</string>
+
+    <string name="activity_second">SECOND ACTIVITY</string>
+    <string name="google_btn">GOOGLE</string>
+    <string name="hello_second">Hello World!</string>
+    <string name="phone_btn">PHONE</string>
+    <string name="map_btn">MAP</string>
+    <string name="delta_btn">COMPUTE DELTA</string>
+    <string name="chooser_title">Open with</string>
+    <string name="toast_title">There is no package available in android</string>
+    <string name="google">http://www.google.com</string>
+    <string name="location">geo:0,0?q=1600+Amphitheatre+Parkway,+Mountain+View,+California</string>
+    <string name="phone">tel:5551234</string>
+</resources>

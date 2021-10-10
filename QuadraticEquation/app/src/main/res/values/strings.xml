@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Quadratic Equation</string>
+    <string name="x_squared">&#10007;&#178;</string>
+    <string name="x_base">&#10007;</string>
+    <string name="plus">&#43;</string>
+    <string name="equal_sign">&#61;</string>
+    <string name="zero">0</string>
+    <string name="compute_btn">COMPUTE</string>
+</resources>

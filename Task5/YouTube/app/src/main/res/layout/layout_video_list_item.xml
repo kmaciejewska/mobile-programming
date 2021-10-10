@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp">
+
+    <View android:id="@+id/separator"
+        android:background="#5C5B5B"
+        android:layout_width = "fill_parent"
+        android:layout_height="1dp"
+        android:layout_centerVertical ="true"
+        android:layout_below="@+id/videoTitle"
+        android:layout_marginTop="30dp"/>
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="396dp"
+        android:layout_height="124dp"
+        android:contentDescription="@string/content"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/videoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_below="@+id/thumbnail"
+        android:layout_marginStart="5dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/imagePlay"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        app:srcCompat="@drawable/play"/>
+
+</RelativeLayout>

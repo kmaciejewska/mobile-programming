@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">YouTube</string>
+    <string name="play_btn">PLAY VIDEO</string>
+    <string name="content">thumbnail of video</string>
+    <string name="pause_btn">PAUSE</string>
+    <string name="stop_btn">STOP</string>
+    <string name="resume_btn">RESUME</string>
+    <string name="error_toast">An error occured while loading:  </string>
+    <string name="click_play_error">Please click play video first!</string>
+</resources>
